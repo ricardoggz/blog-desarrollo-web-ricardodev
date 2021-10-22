@@ -1,13 +1,36 @@
-body {
+/*Imports*/
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
+/*bootstrap icons*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap');
+/*Google font*/
+
+/*-reset-*/
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #dfe4ea;
 }
+
+.flex-container{
+  max-width: 70%;
+  margin: 0 auto;
+}
+/*responsive flex-container*/
+
+@media (min-width:240px) and (max-width:880px){
+  .flex-container{
+    max-width: 90%;
+  }
+}
+
+/*code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}*/
