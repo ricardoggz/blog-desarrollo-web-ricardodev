@@ -23,7 +23,7 @@ header input,label{
 .list-menu li{
     display:inline;
     list-style: none;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 
@@ -39,10 +39,10 @@ header input,label{
         display: none;
         top:4rem;
         right: 0;
-        position: fixed;
+        position:absolute;
     }
     .list-menu li{
-        padding: 2.5rem 0;
+        padding: 1.5rem;
     }
     .bar-btn{
         display:flex;
@@ -56,10 +56,10 @@ header input,label{
     header #menu:checked~.list-menu{
         background: #0a3d62;
         width: 100%;
-        height: 50vh;
+        height: 40vh;
         display:flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items:flex-start;
+        justify-content: space-evenly;
     }
 }

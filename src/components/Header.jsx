@@ -13,8 +13,8 @@ export const Header = () => {
                     </label>
                     <ul className="list-menu">
                         <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="../index.html">Contacto de creador</a></li>
                         <li><a href="../index.html">Repositorio</a></li>
+                        <li><a href="../index.html">Creador del blog</a></li>
                     </ul>
                 </nav>
             </div>
