@@ -3,7 +3,7 @@ header{
     width: 100%;
     height: auto;
     color:#f5f6fa;
-    padding: 1rem 0;
+   padding:0;
 }
 header a{
     text-decoration: none;
@@ -33,11 +33,11 @@ header input,label{
 
 @media (min-width:240px) and (max-width:880px){
     header{
-        padding: 0.5rem 0;
+        padding:0;
     }
     .list-menu{
         display: none;
-        top:4rem;
+        top:4.3rem;
         right: 0;
         position:absolute;
     }
@@ -51,7 +51,7 @@ header input,label{
         user-select: none;
     }
     .logo{
-        width: 1rem;
+        width: 4rem;
     }
     header #menu:checked~.list-menu{
         background: #0a3d62;

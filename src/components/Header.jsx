@@ -1,11 +1,12 @@
 import React from 'react'
 import "../styles/header.css"
+import LogoDev from "../img/logodev.png";
 
 export const Header = () => {
     return (
         <header>
             <div className="flex-container menu-container">
-                <a href="../index.html"><h2 className="logo">LearnJS</h2></a>
+                <a href="../index.html"><img src={LogoDev} alt="Ricardo.Dev" className="logo"/></a>
                 <nav>
                     <input type="checkbox" id="menu"/>
                     <label htmlFor="menu" className="bar-btn">
