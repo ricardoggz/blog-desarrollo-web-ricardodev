@@ -1,16 +1,23 @@
-import React from 'react'
-import Jslogo from '../img/jslogo.png'
-import "../styles/card.css"
+import React from "react";
+import { BrowserRouter as Router, Route,Switch, Link } from "react-router-dom";
+import {Section} from "../pages/Section";
+import Jslogo from "../img/jslogo.png";
+import "../styles/card.css";
 
 export const Card = () => {
-    return (
-        <section className="flex-container main-cards-container">
-            <div className="cards-container">
-            <div className="card">
-                <a href="./index.html"><img src={Jslogo} alt="JS-LOGO"/></a>
-                <p>¿Qué es JavaScript?</p>
-            </div>
-            </div>
-        </section>
-    )
-}
+  return (
+      <Router>
+        <Link to="/section">
+          <div className="card">
+            <img src={Jslogo} alt="JS-LOGO" />
+            <h3>¿Qué es JavaScript?</h3>
+          </div>
+        </Link>
+        <Switch>
+            <Route path="/section">
+                <Section/>
+            </Route>
+        </Switch>
+        </Router>
+  );
+};

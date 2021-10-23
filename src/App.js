@@ -1,14 +1,16 @@
 import React from "react";
-import "./App.css";
 import { Header } from "./components/Header";
-import {Card} from "./components/Card";
+import {Main} from "./components/Main";
+import {Footer} from "./components/Footer";
+
 
 function App() {
   return (
-    <div>
+    <>
       <Header/>
-      <Card/>
-    </div>
+      <Main/>
+      <Footer/>
+    </>
   );
 }
 

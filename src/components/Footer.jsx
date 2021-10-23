@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import "../styles/footer.css";
 
 export const Footer = () => {
     return (
-        <div>
-            
-        </div>
+        <footer>
+            <h5>&copy;Copyright 2021 - Creado por @ricardo_guevarag</h5>
+        </footer>
     )
 }

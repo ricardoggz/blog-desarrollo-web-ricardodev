@@ -3,7 +3,7 @@ header{
     width: 100%;
     height: auto;
     color:#f5f6fa;
-   padding:0;
+    padding:0;
 }
 header a{
     text-decoration: none;
@@ -32,9 +32,7 @@ header input,label{
 /*responsive-movil*/
 
 @media (min-width:240px) and (max-width:880px){
-    header{
-        padding:0;
-    }
+   
     .list-menu{
         display: none;
         top:4.3rem;

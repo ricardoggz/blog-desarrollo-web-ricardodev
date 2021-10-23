@@ -1,5 +1,5 @@
-import React from 'react'
-import "../styles/header.css"
+import React from 'react';
+import "../styles/header.css";
 import LogoDev from "../img/logodev.png";
 
 export const Header = () => {
@@ -13,9 +13,11 @@ export const Header = () => {
                         <i class="bi bi-list"></i>
                     </label>
                     <ul className="list-menu">
+                        
                         <li><a href="../index.html">Inicio</a></li>
                         <li><a href="../index.html">Repositorio</a></li>
-                        <li><a href="../index.html">Creador del blog</a></li>
+                        <li><a href="https://github.com/ricardoggz" target="blank">Creador del blog</a></li>
+                    
                     </ul>
                 </nav>
             </div>
