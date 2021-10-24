@@ -14,7 +14,7 @@ export const Card = () => {
           </div>
         </Link>
         <Switch>
-            <Route path="/section">
+            <Route path="/section" exact>
                 <Section/>
             </Route>
         </Switch>
