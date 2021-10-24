@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/header.css";
 import LogoDev from "../img/logodev.png";
+import {Link} from "react-router-dom";
 
 export const Header = () => {
     return (
@@ -13,11 +14,13 @@ export const Header = () => {
                         <i class="bi bi-list"></i>
                     </label>
                     <ul className="list-menu">
+                      
                         
                         <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="../index.html">Repositorio</a></li>
-                        <li><a href="https://github.com/ricardoggz" target="blank">Creador del blog</a></li>
-                    
+                        <li><Link to="/about">Sobre mí</Link></li>
+                        <li><a href="https://github.com/ricardoggz" target="blank">Github</a></li>
+
+    
                     </ul>
                 </nav>
             </div>

@@ -6,18 +6,17 @@ import "../styles/card.css";
 
 export const Card = () => {
   return (
-      <Router>
-        <Link to="/section">
+      
+        
+          <section className="flex-container cards-container">
+            <Link to="/section">
           <div className="card">
             <img src={Jslogo} alt="JS-LOGO" />
             <h3>¿Qué es JavaScript?</h3>
           </div>
-        </Link>
-        <Switch>
-            <Route path="/section" exact>
-                <Section/>
-            </Route>
-        </Switch>
-        </Router>
+          </Link>
+          </section>
+        
+        
   );
 };

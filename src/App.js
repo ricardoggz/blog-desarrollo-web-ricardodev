@@ -1,16 +1,24 @@
 import React from "react";
-import { Header } from "./components/Header";
-import {Main} from "./components/Main";
+import "./styles/main.css"
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {Header } from "./components/Header";
 import {Footer} from "./components/Footer";
+import {Section} from "./pages/Section";
+import {About} from "./pages/About";
+import {Card} from "./components/Card";
 
 
 function App() {
   return (
-    <>
+    <Router>
       <Header/>
-      <Main/>
+      <main>
+        <Card/>
+        <Route path="/about" exact component ={About}/>
+        <Route path="/section" exact component ={Section}/>
+      </main>
       <Footer/>
-    </>
+    </Router>
   );
 }
 
