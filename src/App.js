@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Header />
       <main>
-       <Route path="/index.html" exact component={Card}/>
+       <Route path="/" exact component={Card}/>
         <Route path="/about" component={About} />
         <Route path="/section" component={Section} />
       </main>

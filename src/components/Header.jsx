@@ -7,7 +7,7 @@ export const Header = () => {
     return (
         <header>
             <div className="flex-container menu-container">
-                <a href="../index.html"><img src={LogoDev} alt="Ricardo.Dev" className="logo"/></a>
+                <Link to="/"><img src={LogoDev} alt="Ricardo.Dev" className="logo"/></Link>
                 <nav>
                     <input type="checkbox" id="menu"/>
                     <label htmlFor="menu" className="bar-btn">
@@ -16,7 +16,7 @@ export const Header = () => {
                     <ul className="list-menu">
                       
                         
-                        <li><a href="../index.html">Inicio</a></li>
+                        <li><Link to="/">Inicio</Link></li>
                         <li><Link to="/about">Sobre mí</Link></li>
 
     

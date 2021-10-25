@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route,Switch, Link } from "react-router-dom";
-import {Section} from "../pages/Section";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import Jslogo from "../img/jslogo.png";
+import Reactlogo from "../img/reactlogo.png";
 import "../styles/card.css";
 
 export const Card = () => {
@@ -41,6 +41,13 @@ export const Card = () => {
           <div className="card">
             <img src={Jslogo} alt="JS-LOGO" />
             <h3>Objetos en JavaScript</h3>
+          </div>
+          </Link>
+
+          <Link to="#">
+          <div className="card">
+            <img src={Reactlogo} alt="REACT-LOGO" />
+            <h3>Primeros pasos en react</h3>
           </div>
           </Link>
           </section>
