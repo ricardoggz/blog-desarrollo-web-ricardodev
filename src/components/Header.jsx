@@ -18,6 +18,7 @@ export const Header = () => {
                         
                         <li><Link to="/">Inicio</Link></li>
                         <li><Link to="/about">Sobre mí</Link></li>
+                        <li><a href="#">Repositorio</a></li>
 
     
                     </ul>

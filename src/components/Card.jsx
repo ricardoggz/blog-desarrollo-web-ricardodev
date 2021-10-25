@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import Jslogo from "../img/jslogo.png";
+import Jslogo2 from "../img/JSlogo2.png";
 import Reactlogo from "../img/reactlogo.png";
 import "../styles/card.css";
 
@@ -18,7 +19,7 @@ export const Card = () => {
 
           <Link to="#">
           <div className="card">
-            <img src={Jslogo} alt="JS-LOGO" />
+            <img src={Jslogo2} alt="JS-LOGO" />
             <h3>Declarando variables</h3>
           </div>
           </Link>
