@@ -18,7 +18,6 @@ export const Header = () => {
                         
                         <li><a href="../index.html">Inicio</a></li>
                         <li><Link to="/about">Sobre mí</Link></li>
-                        <li><a href="https://github.com/ricardoggz" target="blank">Github</a></li>
 
     
                     </ul>

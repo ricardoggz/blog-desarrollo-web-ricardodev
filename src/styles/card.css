@@ -19,13 +19,13 @@
     display: flex;
     width: 100%;
     margin:0 auto;
-    background: #ecf0f1;
+    background: #f5f5f5;
     padding:1.5rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 8px;
-    color: #0a3d62;
+    color: #205a81;
 }
 
 .card img{

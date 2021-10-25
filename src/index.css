@@ -16,12 +16,12 @@
 
 body {
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
-  background: #dae1e9;
+  background: #ecf0f1;
   text-align: justify;
 }
 
 .flex-container{
-  max-width: 70%;
+  max-width:70%;
   margin: 0 auto;
 }
 /*responsive flex-container*/

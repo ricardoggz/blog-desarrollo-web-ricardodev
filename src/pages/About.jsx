@@ -5,11 +5,11 @@ export const About = () => {
         <section className="flex-container">
             <h1>Sobre mí</h1>
             <sub>24 / Octubre / 2021</sub>
-            <p>Hola, Me llamo Ricardo José Guevara Guzmán (RG.DEV), soy apasionado por la tecnología y el desarrollo de software, me desempeño como desarrollador web especializado en el rol de frontend, soy de México y me gusta mucho consolidar mis conociemientos en esta rama específica y nunca detener mi aprendizaje. </p>
+            <p>Hola, me llamo Ricardo José Guevara Guzmán (RG.DEV), soy apasionado por la tecnología y el desarrollo de software, me desempeño como desarrollador web especializado en el rol de frontend, soy de México y me gusta mucho consolidar mis conociemientos en esta rama de la programación y nunca detener mi aprendizaje. </p>
 
-            <h1>Mi educación</h1>
+            <h1>¿A qué me dedico?</h1>
 
-            <p>Soy estudiante de Ingeniería en Comunicación Multimedia, también formo parte de un bootcamp de desarrollo web fullstack en la universidad UTEL, así como también soy desarrollador autodidacta.</p>
+            <p>Soy estudiante de Ingeniería en Comunicación Multimedia, también formo parte de un bootcamp de "desarrollo web fullstack" en la universidad UTEL, de igual manera soy desarrollador autodidacta aprendiendo en diferentes recursos digitales como <a href="https://platzi.com/" target="blank">Platzi</a> y <a href="https://www.udemy.com/" target="blank">Udemy</a>.</p>
 
             <h1>Objetivo de este proyecto</h1>
 

@@ -12,7 +12,35 @@ export const Card = () => {
             <Link to="/section">
           <div className="card">
             <img src={Jslogo} alt="JS-LOGO" />
-            <h3>¿Qué es JavaScript?</h3>
+            <h3>Un poco de historia</h3>
+          </div>
+          </Link>
+
+          <Link to="#">
+          <div className="card">
+            <img src={Jslogo} alt="JS-LOGO" />
+            <h3>Declarando variables</h3>
+          </div>
+          </Link>
+
+          <Link to="#">
+          <div className="card">
+            <img src={Jslogo} alt="JS-LOGO" />
+            <h3>Utilizando funciones</h3>
+          </div>
+          </Link>
+
+          <Link to="#">
+          <div className="card">
+            <img src={Jslogo} alt="JS-LOGO" />
+            <h3>¿Qué son los arreglos?</h3>
+          </div>
+          </Link>
+
+          <Link to="#">
+          <div className="card">
+            <img src={Jslogo} alt="JS-LOGO" />
+            <h3>Objetos en JavaScript</h3>
           </div>
           </Link>
           </section>
