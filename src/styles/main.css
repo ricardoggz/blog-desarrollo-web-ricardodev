@@ -5,12 +5,19 @@ main{
     line-height: 2rem;
     font-size: 1.1rem;
 }
-main h1, p{
-    padding-bottom:1.5rem;
+main h1, p,h2,h3{
+    padding-bottom:2rem;
 }
 main a{
     color:#3498db;
     text-decoration: none;
+}
+main section >ul{
+    padding-bottom:2rem;
+}
+
+.code-image{
+    width: 100%;
 }
 
 @media (min-width:240px) and (max-width:880px){

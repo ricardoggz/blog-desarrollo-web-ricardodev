@@ -17,7 +17,7 @@ export const Card = () => {
           </div>
           </Link>
 
-          <Link to="#">
+          <Link to="/variables">
           <div className="card">
             <img src={Jslogo2} alt="JS-LOGO" />
             <h3>Declarando variables</h3>
