@@ -9,21 +9,24 @@ header a{
     text-decoration: none;
     color:#f5f6fa;
 }
-.logo{
-    width: 4rem;
+
+header input,label{
+    display: none;
 }
+
 .menu-container{
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
-header input,label{
-    display: none;
-}
+
 .list-menu li{
     display:inline;
     list-style: none;
     padding: 0 0.5rem;
+}
+.logo{
+    width: 4rem;
 }
 
 

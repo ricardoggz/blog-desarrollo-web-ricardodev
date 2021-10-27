@@ -13,42 +13,42 @@ export const Card = () => {
             <Link to="/section">
           <div className="card">
             <img src={Jslogo} alt="JS-LOGO" />
-            <h3>Un poco de historia</h3>
+            <span>Un poco de historia</span>
           </div>
           </Link>
 
           <Link to="/variables">
           <div className="card">
             <img src={Jslogo2} alt="JS-LOGO" />
-            <h3>Declarando variables</h3>
+            <span>Declarando variables</span>
           </div>
           </Link>
 
           <Link to="#">
           <div className="card">
             <img src={Jslogo} alt="JS-LOGO" />
-            <h3>Utilizando funciones</h3>
+            <span>Utilizando funciones</span>
           </div>
           </Link>
 
           <Link to="#">
           <div className="card">
             <img src={Jslogo} alt="JS-LOGO" />
-            <h3>¿Qué son los arreglos?</h3>
+            <span>¿Qué son los arreglos?</span>
           </div>
           </Link>
 
           <Link to="#">
           <div className="card">
             <img src={Jslogo} alt="JS-LOGO" />
-            <h3>Objetos en JavaScript</h3>
+            <span>Objetos en JavaScript</span>
           </div>
           </Link>
 
           <Link to="#">
           <div className="card">
             <img src={Reactlogo} alt="REACT-LOGO" />
-            <h3>Primeros pasos en react</h3>
+            <span>Primeros pasos en react</span>
           </div>
           </Link>
           </section>
