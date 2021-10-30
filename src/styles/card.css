@@ -29,8 +29,8 @@
     color: #205a81;
 }
 .card:hover{
-    background:#e0e0e0 ;
-    transition: all 300ms ease-out;
+    background: #b2ccdd;
+    transition: all 200ms ease-in-out;
 }
 
 .card img{
