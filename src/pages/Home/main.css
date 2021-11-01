@@ -16,6 +16,15 @@ main section >ul{
     padding-bottom:2rem;
 }
 
+.cards-container{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:1rem;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
 .code-image{
     width: 100%;
 }
@@ -24,5 +33,9 @@ main section >ul{
     main{
         font-size:1.2rem;
         padding:3.5rem 0;
+    }
+
+    .cards-container{
+        grid-template-columns: repeat(1,1fr);
     }
 }

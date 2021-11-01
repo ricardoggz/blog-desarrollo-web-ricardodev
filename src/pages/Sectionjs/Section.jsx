@@ -1,5 +1,4 @@
-import React from 'react'
-import Jslogo from "../img/jslogo.png"
+import React from 'react';
 
 export const Section = () => {
     return (
