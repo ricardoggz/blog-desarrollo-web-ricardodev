@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const Section = () => {
+export const Sectionjs = () => {
     return (
-        <section className="flex-container">
+        <section className="flex-container sections">
             <h1>Un poco de historia</h1>
             <sub>24 / Octubre / 2021</sub>
             <p>JavaScript es un lenguaje de programación, el cual es interpretado por la mayoría de los navegadores,

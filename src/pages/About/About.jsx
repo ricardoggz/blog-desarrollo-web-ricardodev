@@ -2,7 +2,7 @@ import React from 'react'
 
 export const About = () => {
     return (
-        <section className="flex-container">
+        <section className="flex-container sections">
             <h1>Sobre mí</h1>
             <sub>24 / Octubre / 2021</sub>
             <p>Hola, me llamo Ricardo José Guevara Guzmán (RG.DEV), soy apasionado por la tecnología y el desarrollo de software, me desempeño como desarrollador web especializado en el rol de frontend, soy de México y me gusta mucho consolidar mis conociemientos en esta rama de la programación y nunca detener mi aprendizaje. </p>
