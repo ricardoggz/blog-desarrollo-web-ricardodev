@@ -1,13 +1,18 @@
 button{
-    background:#3498db; 
-    border: #3498db; 
-    padding: 0.5rem;
+    background:none; 
+    border:1px solid #0a3d62; 
+    padding: 0.4rem;
     cursor:pointer;
-    color:#fff;
+    color:#0a3d62;
     border-radius: 5px;
     box-shadow: none;
-    width: 15%;
+    width: 20%;
     font-size: 1.1rem;
+}
+
+button:hover{
+    background:#b2ccdd;
+    transition: all 200ms ease-in-out;
 }
 
 /*responsive*/
