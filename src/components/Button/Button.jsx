@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import "../Button/button.css";
 
-export const Button = () => {
-    return (
-        <button>
-            
-        </button>
-    )
+function Button() {
+  return (
+    <Link to="/">
+      <button>
+        <i class="bi bi-arrow-left"></i>Inicio
+      </button>
+    </Link>
+  );
 }
+
+export { Button };
