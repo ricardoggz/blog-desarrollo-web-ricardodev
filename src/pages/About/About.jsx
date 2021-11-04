@@ -14,8 +14,6 @@ export const About = () => {
         programación y nunca detener mi aprendizaje.{" "}
       </p>
 
-      <h3>¿Quién soy?</h3>
-
       <p>
         Soy estudiante de Ingeniería en Comunicación Multimedia, también formo
         parte de un bootcamp de "desarrollo web fullstack" en la universidad

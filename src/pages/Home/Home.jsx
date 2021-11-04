@@ -17,7 +17,7 @@ function Home() {
           <Card title="Un poco de historia" image={jsLogo} />
         </Link>
 
-        <Link to="/">
+        <Link to="/variables">
           <Card title="Declarando variables" image={jsLogo} />
         </Link>
 

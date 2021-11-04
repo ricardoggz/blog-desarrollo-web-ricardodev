@@ -7,6 +7,7 @@ import { Footer } from "../components/Footer/Footer";
 
 import { Sectionjs } from "../pages/Sectionjs/Section";
 import { About } from "../pages/About/About";
+import { Variables } from "../pages/SectionVariables/Variables";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </Route>
       <Route path="/sectionjs" component={Sectionjs} exact />
       <Route path="/about" component={About} exact />
+      <Route path="/variables" component={Variables} exact />
       <Footer />
     </Router>
   );

@@ -18,6 +18,7 @@ body {
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
   background: #dce3e4;
   text-align: justify;
+  color:#202020;
 }
 
 /*clase para todos los contenedores*/
@@ -27,18 +28,24 @@ body {
   margin: 0 auto;
 }
 
+/*font-color para las notas y pies de página*/
+.notes{
+  color:#6e6e6e;
+  font-style: italic;
+}
+
 /*clase para las secciones*/
 
 .sections{
   padding: 5rem 0;
   height:100%;
   text-align: justify;
-  font-size:1.2rem;
+  font-size:1.3rem;
   line-height: 2.2rem;
 }
 
 .sections h1, p,h2,h3{
-  padding-bottom:2rem;
+  padding-bottom:2.5rem;
 }
 
 .sections a{
@@ -46,10 +53,12 @@ body {
   text-decoration: none;
 }
 
+
 /*clase para imagenes de las secciones*/
 
 .code-image{
   width: 100%;
+  padding-bottom:2rem;
 }
 
 
@@ -61,6 +70,7 @@ body {
   .flex-container{
     max-width: 90%;
   }
+  
 }
 
 /*code {
