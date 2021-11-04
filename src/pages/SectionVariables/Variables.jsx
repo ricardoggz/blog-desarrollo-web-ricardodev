@@ -31,7 +31,7 @@ function Variables() {
 
       <h2>let</h2>
       <p>
-        También es una variable mutable, la única dieferencia es que si respeta
+        También es una variable mutable, la única diferencia es que si respeta
         el flujo de trabajo, es decir, que aunque se le reasigne un valor
         diferente en otro bloque de nuestro código respetará y seguirá
         almacenando el valor anterior.
