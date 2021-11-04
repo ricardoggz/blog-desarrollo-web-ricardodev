@@ -10,7 +10,7 @@ function Variables() {
     <section className="flex-container sections">
       <h1>Declarando variables</h1>
       <sub>03 / Noviembre / 2021</sub>
-      <p>En JavaScript exiten 3 tipos de variales que podemos definir:</p>
+      <p>En JavaScript exiten 3 tipos de variables que podemos definir:</p>
 
       <h2>var</h2>
       <p>
