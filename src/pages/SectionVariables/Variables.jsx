@@ -1,9 +1,9 @@
 import React from "react";
 import { Button } from "../../components/Button/Button";
 
-import codeConst from "../../img/imgtoVariableSection/codeconst.png";
-import codeLet from "../../img/imgtoVariableSection/codelet.png";
-import codeVar from "../../img/imgtoVariableSection/codevar.png";
+import codeConst from "../../img/imgtoVariableSection/codeconst-min.png";
+import codeLet from "../../img/imgtoVariableSection/codelet-min.png";
+import codeVar from "../../img/imgtoVariableSection/codevar-min.png";
 
 function Variables() {
   return (
